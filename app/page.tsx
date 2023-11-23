@@ -6,7 +6,15 @@ export default function Home() {
       <p>This will then sync the video into the db for future use</p>
       <p>
         You can also force any of the channels that were added part of the sync
-        to use GoogleHubPubBub push
+        to use
+        <a
+          href="https://pubsubhubbub.appspot.com/"
+          target="_blank"
+          className="text-blue-500"
+        >
+          GooglePubSubHubBub
+        </a>
+        push
       </p>
       <p>
         it calls a webhook thats part of this server and syncs all the public

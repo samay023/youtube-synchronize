@@ -11,7 +11,7 @@ interface Props {
 export default function Card({ id, title, description, imageUrl }: Props) {
   return (
     <Link
-      className="w-56 rounded overflow-hidden shadow-lg cursor-pointer hover:bg-gray-100 max-h-96"
+      className="w-56 rounded overflow-hidden shadow-lg cursor-pointer hover:bg-gray-100 hover:text-black max-h-96"
       href={`/videos/${id}`}
     >
       <Image
@@ -22,7 +22,7 @@ export default function Card({ id, title, description, imageUrl }: Props) {
         alt=""
       />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
+        <div className="font-bold text-xl mb-2 ">{title}</div>
         <p
           className="text-gray-700 text-ellipsis overflow-hidden"
           title={description}

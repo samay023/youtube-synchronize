@@ -36,3 +36,9 @@ yarn-error.log*
 next-env.d.ts
 
 /.env
+
+# terraform
+.terraform
+.terraform.*
+terraform.*
+ec2_key

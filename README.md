@@ -13,3 +13,11 @@ yarn dev
 ```
 
 And ensure the necessary environment variables are set.
+
+### Deployment
+
+`Install terraform to create the required architecture`
+
+This project uses terraform to create an ec2 instance with a ssh key
+
+This will later be updated to use github actions to package and download the image in ec2 instance
